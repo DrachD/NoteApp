@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  dialog selected color  -->
+    <color name="dialog_red">#FFFF0303</color>
+    <color name="dialog_orange">#FFFF8103</color>
+    <color name="dialog_yellow">#FFFFF203</color>
+    <color name="dialog_green">#FF39FF03</color>
+    <color name="dialog_blue">#FF0352FF</color>
+    <color name="dialog_purple">#FF5A0087</color>
+    <color name="dialog_black">#FF000000</color>
+    <color name="dialog_gray">#FF616161</color>
+    <color name="dialog_white">#FFFFFFFF</color>
+
+    <!--  NOTE background color  -->
+    <color name="dialog_light_red">#FFFF5E5E</color>
+    <color name="dialog_light_orange">#FFFFAD5C</color>
+    <color name="dialog_light_yellow">#FFF763</color>
+    <color name="dialog_light_green">#FF85FF63</color>
+    <color name="dialog_light_blue">#FF6395FF</color>
+    <color name="dialog_light_purple">#FF953FB1</color>
+    <color name="dialog_light_black">#FF262626</color>
+    <color name="dialog_light_gray">#FF8C8C8C</color>
+    <color name="dialog_light_white">#FFFFFFFF</color>
+
+    <!--  wrap color  -->
+    <color name="wrap_gray">#30616161</color>
+</resources>

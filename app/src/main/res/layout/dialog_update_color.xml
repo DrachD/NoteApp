@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeWidth="0.5dp"
+        app:strokeColor="@color/black"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_red"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_red"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_orange"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_orange"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_orange"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_yellow"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_yellow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_yellow"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_green"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_green"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_green"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_blue"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_blue"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_purple"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_purple"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_purple"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_black"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_black"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_gray"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_gray"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wrap_content_white"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/my_custom_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/color_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/dialog_white"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
