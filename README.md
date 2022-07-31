@@ -10,3 +10,4 @@ Android App with:
 - SingleActivity
 - Room
 - viewBinding
+
