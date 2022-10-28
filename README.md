@@ -6,7 +6,7 @@ Android App with:
 - MVVM
 - LiveData
 - XML
-- supportFragmentManager
+- Navigations
 - SingleActivity
 - Room
 - viewBinding
