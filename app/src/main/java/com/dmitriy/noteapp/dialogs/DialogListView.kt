@@ -27,6 +27,7 @@ class DialogListView(
 
     init {
         _binding = DialogUpdateListViewBinding.inflate(act?.layoutInflater!!)
+
     }
 
     fun showDialog() {

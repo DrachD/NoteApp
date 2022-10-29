@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity(), FragmentCallbacks {
     }
 
     override fun onFragmentReplacement(fragment: Fragment, onBackPressed: Boolean, addToBackStack: Boolean) {
-        Log.d("myLogs", "onFragmentReplacement()")
 
         when (onBackPressed) {
             true -> {

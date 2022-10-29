@@ -79,7 +79,7 @@ class HomeFragment : Fragment(), SearchView.OnQueryTextListener, ListViewCallbac
         mainSharedPreferences = (activity as MainActivity).getSharedPreferences("MySharedPref", Activity.MODE_PRIVATE)!!
         val editor = mainSharedPreferences.edit()
 
-        editor.putInt("data", ListView.currentListView).commit()
+        editor.putInt("data", ListView.currentListView).apply()
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
