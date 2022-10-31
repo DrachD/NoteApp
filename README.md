@@ -1,6 +1,6 @@
 # NoteApp
 
-Android App with:
+##Components:
 
 - Kotlin
 - MVVM
